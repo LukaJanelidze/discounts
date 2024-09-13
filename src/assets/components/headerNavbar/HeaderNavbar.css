@@ -1,0 +1,136 @@
+/* Navbar container */
+/* Wrapper for Navbar to reserve space */
+.navbar-wrapper {
+    height: 80px; /* Ensure space is reserved */
+  }
+  
+  /* Navbar container */
+  .navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #B78E80;
+    padding: 0 20px;
+    z-index: 998;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: top 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Hidden state for navbar when scrolling down */
+  .navbar.hidden {
+    top: -80px;
+  }
+
+/* Menu icon (three lines) */
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* Line styling for menu icon */
+.menu-icon .line {
+    width: 30px;
+    height: 3px;
+    background-color: #4C4C4B;
+    border-radius: 2px;
+}
+
+/* HomePage button */
+
+.homepage-button {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.homepage-button h1 {
+    color: #4C4C4B;
+    font-size: 25px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Overlay for clicks outside the navbar */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* Sliding side-navbar */
+.side-navbar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #B78E80;
+    padding: 10px;
+    transition: 0.3s ease;
+    z-index: 1000;
+}
+
+.side-navbar.open {
+    left: 0;
+}
+
+/* Section tabs (Shops, Products) */
+.section-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.tab {
+    color: #4C4C4B;
+    display: flex;
+    width: 50%;
+    cursor: pointer;
+    justify-content: center;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+}
+
+.tab.active {
+    border-bottom: 1px solid red;
+}
+
+.tab:hover {
+    border-bottom: 1px solid red;
+}
+
+/* Section content */
+.section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-content a {
+    color: #4C4C4B;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+}
+
+.section-content a:hover {
+    color: #bbb;
+}
