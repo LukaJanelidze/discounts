@@ -20,7 +20,7 @@ const ProductsData = [
     "description": "ცხელი თონის პური",
     "market": "ორი ნაბიჯი",
     "category": "ცომეული",
-    "marketImage": "/productImages/tsomeuli/dachriliPuri.webp"
+    "marketImage": "/marketImgs/oriNabijiImg.png"
   },
   {
     "id": "ori-nabiji-bageti",
@@ -31,7 +31,7 @@ const ProductsData = [
     "description": "ფრანგული ბაგეტი",
     "market": "ორი ნაბიჯი",
     "category": "ცომეული",
-    "marketImage": "/public/marketImgs/oriNabijiImg.png"
+    "marketImage": "/marketImgs/oriNabijiImg.png"
   },
   {
     "id": "ori-nabiji-kruasani",
@@ -42,7 +42,7 @@ const ProductsData = [
     "description": "კარაქის კრუასანი",
     "market": "ორი ნაბიჯი",
     "category": "ცომეული",
-    "marketImage": "/public/marketImgs/oriNabijiImg.png"
+    "marketImage": "/marketImgs/oriNabijiImg.png"
   },
   {
     "id": "libre-tsomeuli-puri",
@@ -53,7 +53,7 @@ const ProductsData = [
     "description": "ცხელი თონის პური",
     "market": "ლიბრე",
     "category": "ცომეული",
-    "marketImage": "/public/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg"
   },
   {
     "id": "libre-bageti",
@@ -64,7 +64,7 @@ const ProductsData = [
     "description": "ფრანგული ბაგეტი",
     "market": "ლიბრე",
     "category": "ცომეული",
-    "marketImage": "/public/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg"
   },
   {
     "id": "libre-kruasani",
@@ -75,7 +75,7 @@ const ProductsData = [
     "description": "კარაქის კრუასანი",
     "market": "ლიბრე",
     "category": "ცომეული",
-    "marketImage": "/public/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg"
   },
   //ტკბილეული
   {
@@ -87,7 +87,7 @@ const ProductsData = [
     "description": "გემრიელი ბისკვიტი",
     "market": "ორი ნაბიჯი",
     "category": "ტკბილეული",
-    "marketImage": "/public/marketImgs/oriNabijiImg.png"
+    "marketImage": "/marketImgs/oriNabijiImg.png"
   },
   {
     "id": "ori-nabiji-shokoladis-fila",
@@ -98,7 +98,7 @@ const ProductsData = [
     "description": "შოკოლადის ფილა",
     "market": "ორი ნაბიჯი",
     "category": "ტკბილეული",
-    "marketImage": "/public/marketImgs/oriNabijiImg.png"
+    "marketImage": "/marketImgs/oriNabijiImg.png"
   },
   {
     "id": "ori-nabiji-namcxvari",
@@ -109,7 +109,7 @@ const ProductsData = [
     "description": "გემრიელი ნამცხვარი",
     "market": "ორი ნაბიჯი",
     "category": "ტკბილეული",
-    "marketImage": "/public/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg"
   },
 
   {
@@ -121,7 +121,7 @@ const ProductsData = [
     "description": "ბისკვიტი",
     "market": "ლიბრე",
     "category": "ტკბილეული",
-    "marketImage": "/public/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg"
   },
   {
     "id": "libre-shokoladis-fila",
@@ -132,7 +132,7 @@ const ProductsData = [
     "description": "შოკოლადის ფილა",
     "market": "ლიბრე",
     "category": "ტკბილეული",
-    "marketImage": "/public/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg"
   },
   {
     "id": "libre-namcxvari",
@@ -143,7 +143,7 @@ const ProductsData = [
     "description": "გემრიელი ნამცხვარი",
     "market": "ლიბრე",
     "category": "ტკბილეული",
-    "marketImage": "/public/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg"
   },
   // რძის ნაწარმი Products
   {
@@ -155,7 +155,7 @@ const ProductsData = [
     "description": "ნატურალური რძე",
     "market": "ორი ნაბიჯი",
     "category": "რძის ნაწარმი",
-    "marketImage": "/public/marketImgs/oriNabijiImg.png"
+    "marketImage": "/marketImgs/oriNabijiImg.png"
   },
   {
     "id": "ori-nabiji-karaki",
@@ -166,7 +166,7 @@ const ProductsData = [
     "description": "გემრიელი კარაქი",
     "market": "ორი ნაბიჯი",
     "category": "რძის ნაწარმი",
-    "marketImage": "/public/marketImgs/oriNabijiImg.png"
+    "marketImage": "/marketImgs/oriNabijiImg.png"
   },
   {
     "id": "ori-nabiji-yveli",
@@ -177,7 +177,7 @@ const ProductsData = [
     "description": "ქართული ყველი",
     "market": "ორი ნაბიჯი",
     "category": "რძის ნაწარმი",
-    "marketImage": "/public/marketImgs/oriNabijiImg.png"
+    "marketImage": "/marketImgs/oriNabijiImg.png"
   },
 
   {
@@ -189,7 +189,7 @@ const ProductsData = [
     "description": "ნატურალური რძე",
     "market": "ორი ნაბიჯი",
     "category": "რძის ნაწარმი",
-    "marketImage": "/public/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg"
   },
   {
     "id": "libre-karaqi",
@@ -200,7 +200,7 @@ const ProductsData = [
     "description": "ბუნებრივი იოგურტი",
     "market": "ორი ნაბიჯი",
     "category": "რძის ნაწარმი",
-    "marketImage": "/public/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg"
   }, 
   {
     "id": "libre-yveli",
@@ -211,7 +211,7 @@ const ProductsData = [
     "description": "ქართული ყველი",
     "market": "ორი ნაბიჯი",
     "category": "რძის ნაწარმი",
-    "marketImage": "/public/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg"
   }
 ]
 
