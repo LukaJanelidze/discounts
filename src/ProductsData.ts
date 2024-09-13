@@ -1,5 +1,6 @@
 export interface ProductI {
   name: string;
+  englishName: string;
   price: number;
   image: string;
   id: string;  // Add product ID
@@ -19,7 +20,7 @@ const ProductsData = [
     "description": "ცხელი თონის პური",
     "market": "ორი ნაბიჯი",
     "category": "ცომეული",
-    "marketImage": "/public/marketImgs/oriNabijiImg.png"
+    "marketImage": "/productImages/tsomeuli/dachriliPuri.webp"
   },
   {
     "id": "ori-nabiji-bageti",

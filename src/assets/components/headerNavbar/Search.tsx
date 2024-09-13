@@ -25,9 +25,11 @@ const Search: React.FC<CloseProps> = ({setIsOpen}) => {
 
 
   const filteredProducts = ProductsData.filter((product) =>
-    product.name.toLowerCase().includes(searchQuery.toLowerCase())
+    product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    product.englishName.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
+  console.log(filteredProducts)
   return (
     <div>
       {/* Button to trigger search input */}
