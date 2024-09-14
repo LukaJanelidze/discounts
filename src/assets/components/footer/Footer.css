@@ -22,15 +22,16 @@ footer .footer-top .footer-top-box {
 
 footer .footer-top .footer-top-box .footer-top-title {
     font-weight: 500;
-    color: #fff;
+    color: #4C4C4B;
     text-align: center;
 }
 
 footer .footer-top .footer-top-box .footer-top-line {
     margin-top: 10px;
     border: none;
-    height: 2px;
-    background: rgba(100, 100, 100, 1);
+    height: 3px;
+    border-radius: 100px;
+    background: #4C4C4B;
     width: 100%;
 }
 

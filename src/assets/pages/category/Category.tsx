@@ -15,5 +15,5 @@ export default function RandomProductContainer() {
         <DiscountsSectionOne key={index} product={product}  />
       ))}
     </div>
-  ): <h1 className="no-discounts-today">No discounts today</h1>;
+  ): <h1 className="no-discounts-today">ამ კატეგორიის პროდუქტზე დღეისათვის ფასდაკლება არაა</h1>;
 }

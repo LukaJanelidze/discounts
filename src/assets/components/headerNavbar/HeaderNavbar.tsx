@@ -78,13 +78,13 @@ const Navbar: React.FC = () => {
             className={`tab ${activeSection === 'shops' ? 'active' : ''}`}
             onClick={showShops}
           >
-            Shops
+            მაღაზიები
           </div>
           <div
             className={`tab ${activeSection === 'products' ? 'active' : ''}`}
             onClick={showProducts}
           >
-            Products
+            კატეგორიები
           </div>
         </div>
 

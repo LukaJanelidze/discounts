@@ -34,7 +34,7 @@ const Search: React.FC<CloseProps> = ({setIsOpen}) => {
     <div>
       {/* Button to trigger search input */}
       <button onClick={openSearch} className="search-button">
-        Search Products
+        პროდუქტის ძებნა
       </button>
 
       {/* Overlay and Search Input */}
@@ -47,7 +47,7 @@ const Search: React.FC<CloseProps> = ({setIsOpen}) => {
             </div>
             <input
               type="text"
-              placeholder="Search for products..."
+              placeholder="პროდუქტის ძებნა"
               value={searchQuery}
               onChange={handleSearchChange}
               autoFocus
@@ -82,7 +82,7 @@ const Search: React.FC<CloseProps> = ({setIsOpen}) => {
                   </Link>
                 ))}
                 </div>) : (
-                searchQuery && <div className="no-results">No products found</div>
+                searchQuery && <div className="no-results">პროდუქტი ვერ მოიძებნა</div>
               )}
             </div>
         </>
