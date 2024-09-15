@@ -29,7 +29,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: #DFB2A9;
+    background-color: #a6d498;
     border-radius: 100px;
     padding: 5px;
 }
@@ -38,7 +38,7 @@
     font-size: 20px;
     font-weight: 700;
     margin-right: 5px;
-    color: #4C4C4B;
+    color: white !important;
 }
 
 .main-logo img {
