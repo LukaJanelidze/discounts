@@ -2,10 +2,10 @@
 /* Wrapper for Navbar to reserve space */
 .navbar-wrapper {
     height: 80px; /* Ensure space is reserved */
-  }
+}
   
   /* Navbar container */
-  .navbar {
+.navbar {
     height: 80px;
     width: 100%;
     display: flex;
@@ -19,12 +19,38 @@
     left: 0;
     transition: top 0.3s ease;
     -webkit-tap-highlight-color: transparent;
-  }
+}
+
+.main-logo {
+    width: 100%;
+    height: 70px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #DFB2A9;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.main-logo h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 5px;
+    color: #4C4C4B;
+}
+
+.main-logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
   
   /* Hidden state for navbar when scrolling down */
-  .navbar.hidden {
+.navbar.hidden {
     top: -80px;
-  }
+}
 
 /* Menu icon (three lines) */
 .menu-icon {
