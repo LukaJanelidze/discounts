@@ -109,7 +109,7 @@ const ProductsData = [
     "description": "გემრიელი ნამცხვარი",
     "market": "ორი ნაბიჯი",
     "category": "ტკბილეული",
-    "marketImage": "/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/oriNabijiImg.png"
   },
 
   {
@@ -187,7 +187,7 @@ const ProductsData = [
     "price": 3.0,
     "image": "/productImages/rdzisNatsarmi/rdze.jpg",
     "description": "ნატურალური რძე",
-    "market": "ორი ნაბიჯი",
+    "market": "ლიბრე",
     "category": "რძის ნაწარმი",
     "marketImage": "/marketImgs/libreImg.jpg"
   },
@@ -198,7 +198,7 @@ const ProductsData = [
     "price": 1.5,
     "image": "/productImages/rdzisNatsarmi/karaki.jpg",
     "description": "ბუნებრივი იოგურტი",
-    "market": "ორი ნაბიჯი",
+    "market": "ლიბრე",
     "category": "რძის ნაწარმი",
     "marketImage": "/marketImgs/libreImg.jpg"
   }, 
@@ -209,7 +209,7 @@ const ProductsData = [
     "price": 6.0,
     "image": "/productImages/rdzisNatsarmi/kveli.jpg",
     "description": "ქართული ყველი",
-    "market": "ორი ნაბიჯი",
+    "market": "ლიბრე",
     "category": "რძის ნაწარმი",
     "marketImage": "/marketImgs/libreImg.jpg"
   }
