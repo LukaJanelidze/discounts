@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <div>
+    <div className='header'>
       {/* Wrapper to reserve space */}
       <div className="navbar-wrapper">
         <nav className={`navbar ${isVisible ? '' : 'hidden'}`} ref={navbarRef}>
@@ -59,11 +59,58 @@ const Navbar: React.FC = () => {
             <div className="line"></div>
           </div>
 
+          <div className='homepage-button-box'>
+
           <div className="homepage-button" onClick={() => navigate('/')}>
             <div className="main-logo">
-              <h1>მთავარი</h1>
+              <h1 className='website-main'>მთავარი</h1>
+              <h1 className='website-name'>FASDAKLEBEBI.GE</h1>
               <img src="/imgs/logo.png" alt="logo" />
             </div>
+          </div>
+
+          <div className='search-bigscreen'>
+              < Search setIsOpen={setIsOpen} />
+            </div>
+            
+          </div>
+
+
+          {/* after 768px */}
+
+       <div className='header-menu'>
+
+          <div className="section-tabs-bigscreen">
+          <div
+            className={`tab ${activeSection === 'shops' ? 'active' : ''}`}
+            onClick={showShops}
+          >
+            მაღაზიები
+          </div>
+          <div
+            className={`tab ${activeSection === 'products' ? 'active' : ''}`}
+            onClick={showProducts}
+          >
+            კატეგორიები
+          </div>
+          </div>
+            
+          {activeSection === 'shops' && (
+          <div className="section-content-bigscreen">
+            {/* These links route to filtered product lists by market */}
+            <Link to="/market/ორი-ნაბიჯი" onClick={closeNavbar}>ორი ნაბიჯი</Link>
+            <Link to="/market/ლიბრე" onClick={closeNavbar}>ლიბრე</Link>
+          </div>
+          )}
+
+          {activeSection === 'products' && (
+          <div className="section-content-bigscreen">
+            <Link to="/category/ცომეული" onClick={closeNavbar}>ცომეული</Link>
+            <Link to="/category/ტკბილეული" onClick={closeNavbar}>ტკბილეული</Link>
+            <Link to="/category/რძის-ნაწარმი" onClick={closeNavbar}>რძის ნაწარმი</Link>
+          </div>
+          )}
+
           </div>
         </nav>
       </div>
@@ -107,6 +154,7 @@ const Navbar: React.FC = () => {
           </div>
         )}
       </div>
+
     </div>
   );
 };

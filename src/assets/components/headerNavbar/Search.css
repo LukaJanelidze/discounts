@@ -165,4 +165,9 @@
     color: #4C4C4B;
     padding: 10px;
 }
-  
+
+@media screen and (min-width: 768px) {
+    .search-button {
+        height: 70px;
+    }
+}
