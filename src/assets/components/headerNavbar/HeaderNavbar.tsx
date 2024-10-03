@@ -64,7 +64,6 @@ const Navbar: React.FC = () => {
           <div className="homepage-button" onClick={() => navigate('/')}>
             <div className="main-logo">
               <h1 className='website-main'>მთავარი</h1>
-              <h1 className='website-name'>FASDAKLEBEBI.GE</h1>
               <img src="/imgs/logo.jpg" alt="logo" />
             </div>
           </div>
