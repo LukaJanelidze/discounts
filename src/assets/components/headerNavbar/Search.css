@@ -13,8 +13,8 @@
 .search-button {
     width: 100%;
     font-size: 16px;
-    background-color: #DFB2A9;
-    color: #4C4C4B;
+    background-color: #402158;
+    color: #E2E9FF;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -39,19 +39,19 @@
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    background: #DFB2A9;
+    background: #402158;
     border-radius: 4px;
-    color: #4C4C4B;
+    color: #E2E9FF;
     outline: none;
     border: none;
 }
 
 .search-container input:focus {
-    outline: 2px solid #4C4C4B;
+    outline: 2px solid #140E36;
   }
 
 .search-container input::placeholder {
-    color: #4C4C4B;
+    color: #E2E9FF;
 }
 
 /* Close button for search input */
@@ -80,10 +80,10 @@
     margin-top: 10px;
     width: 100%;
     overflow-y: auto;
-    background: rgba(255, 255, 255, 0.8);
+    background: #c9bfb687;
     border-radius: 4px;
     padding: 10px;
-    max-height: 500px;
+    max-height: 510px;
 }
 
 /* Individual product item */
@@ -98,7 +98,7 @@
 .product-item hr {
     height: 2px;
     width: 100%;
-    background-color: red;
+    background-color: #140E36;
     margin: 10px 0;
     border: none;
 }
@@ -133,7 +133,7 @@
 
 .search-product-result-container {
     width: 100%;
-    background-color: white;
+    background-color: #140E36;
     margin-top: 10px;
     padding: 5px;
     border-radius: 5px;
@@ -142,27 +142,27 @@
 .search-product-name {
     width: 100%;
     text-align: start;
-    color: #4C4C4B;
+    color: #E2E9FF;
 }
 
 .search-product-market {
     width: 100%;
     text-align: start;
-    color: #4C4C4B;
+    color: #E2E9FF;
 }
 
 .search-product-price {
     width: 100%;
     text-align: start;
-    color: #4C4C4B;
+    color: #E2E9FF;
 }
 
 .no-results {
     margin-top: 10px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.8);
+    background: #c9bfb687;
     width: 100%;
-    color: #4C4C4B;
+    color: #E2E9FF;
     padding: 10px;
 }
 
