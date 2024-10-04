@@ -17,10 +17,10 @@ export default function Product() {
     <div className="product-page">
       <div className="pb-container">
         <div className="pb-image-box">
-            <img src={product.image} alt={product.name} />
+            <img src={product.image} alt={product.name} className="pb-image"/>
             {product.marketImage && (
               <div className="pb-market-image-overlay">
-                <img src={product.marketImage} alt="Market" />
+                <img src={product.marketImage} alt="Market" className="market-image" />
               </div>
             )}
           </div>

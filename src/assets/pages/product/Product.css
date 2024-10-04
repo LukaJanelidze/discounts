@@ -4,6 +4,11 @@
     position: relative;
     align-items: center;
     margin: 10px;
+    background-color: #9000ffc0;
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid #140E36;
 }
 
 .pb-container {
@@ -14,17 +19,20 @@
 .pb-image-box {
     height: 15rem;
     width: 100%;
-    border-radius: 5px;
     overflow: hidden;
     position: relative;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 0px 30px #140E36;
 }
 
-.pb-image-box img {
+.pb-image-box .pb-image {
     width: 100%;
     height: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom: 2px solid #140E36;
 }
 
-.pb-market-image-overlay img{
+.pb-market-image-overlay .market-image{
     top: 10px;
     right: 10px;
     width: 40px;
@@ -34,15 +42,71 @@
 }
 
 .product-page-info {
-    background: linear-gradient(
-        rgba(255, 36, 36, 0.8) 25%,
-        rgba(254, 15, 15, 0.8) 50%,
-        rgba(255, 0, 0, 0.8) 75%
-      );
-    margin-top: 10px;
+    background: hsla(274, 45%, 24%, 0.7);
+    margin-top: 20px;
     padding: 10px;
-    border-radius: 5px;
-    color: white;
+    color: #E2E9FF;
+    border-top-right-radius: 50px;
+    border-top: 2px solid #140E36;
+    box-shadow: 0px 0px 30px #140E36;
 }
 
+.product-page-info-title {
+    font-size: 22px;
+    font-weight: 300;
+}
 
+.product-page-info-description {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 769px) {
+    .product-page {
+        border-radius: 0px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .pb-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .pb-image-box {
+        width: 48%;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 50px;
+        box-shadow: 0px 0px 30px #140E36;
+    }
+    
+    .pb-image-box .pb-image {
+        border-bottom-left-radius: 0px;
+        border-bottom: none;
+        border-bottom-right-radius: 50px;
+        border-right: 2px solid #140E36;
+    }
+    
+    .pb-market-image-overlay .market-image{
+
+    }
+    
+    .product-page-info {
+        width: 48%;
+        border-top-right-radius: 0px;
+        border-top: none;
+        margin-top: 0;
+        border-top-left-radius: 50px;
+        border-left: 2px solid #140E36;
+        box-shadow: 0px 0px 30px #140E36;
+    }
+    
+    .product-page-info-title {
+        text-align: end;
+    }
+    
+    .product-page-info-description {
+        text-align: end;
+    }
+}
