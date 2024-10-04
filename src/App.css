@@ -10,10 +10,10 @@
 }
 
 body {
-  background: #ebbdb4;
+  background: #E2E9FF;
 }
 
-.menuheader {
+/* .menuheader {
     width: 100%;
     padding: 10px;
     box-shadow: 0 0 40px rgba(221, 76, 76, 1), 0 0 40px rgba(221, 76, 76, 0.5);
@@ -32,29 +32,29 @@ body {
   .main-logo{
     color: rgba(53, 92, 125, 1);
     font-size: 2rem;
-  }
+  } */
 
   @media only screen and (min-width: 768px) {
 
-    .navbardiv {
+    /* .navbardiv {
       display: flex;
       width: 100%;
     }
   
     .menuheader {
       display: none;
-    }
+    } */
     
   }
   
   @media only screen and (min-width: 1024px) {
-    .navbardiv {
+    /* .navbardiv {
       display: flex;
       width: 100%;
     }
   
     .menuheader {
       display: none;
-    }
+    } */
     
   }

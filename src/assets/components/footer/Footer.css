@@ -1,14 +1,13 @@
 footer {
     height: 33rem;
-    background: rgba(37, 37, 37, 1);
     display: flex;
     flex-direction: column;
-    background: #DFB2A9;
+    background: #140E36;
 }
 footer .footer-top {
     display: flex;
     height: 5rem;
-    background: #B78E80;
+    background: #402158;
 }
 
 footer .footer-top .footer-top-box {
@@ -22,7 +21,7 @@ footer .footer-top .footer-top-box {
 
 footer .footer-top .footer-top-box .footer-top-title {
     font-weight: 500;
-    color: #4C4C4B;
+    color: #E2E9FF;
     text-align: center;
 }
 
@@ -31,10 +30,9 @@ footer .footer-top .footer-top-box .footer-top-line {
     border: none;
     height: 3px;
     border-radius: 100px;
-    background: #4C4C4B;
+    background: #E2E9FF;
     width: 100%;
 }
-
 
 @media (min-width: 769px) {
     footer {
