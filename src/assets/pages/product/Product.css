@@ -89,7 +89,8 @@
     }
     
     .pb-market-image-overlay .market-image{
-
+        width: 60px;
+        height: 60px;
     }
     
     .product-page-info {
