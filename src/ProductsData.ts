@@ -8,6 +8,7 @@ export interface ProductI {
   marketImage: string;
   category: string;
   description: string;
+  expireDate: string;
 }
 
 const ProductsData = [
@@ -23,7 +24,8 @@ const ProductsData = [
     "description": "ცხელი თონის პური",
     "market": "ორი ნაბიჯი",
     "category": "ცომეული",
-    "marketImage": "/marketImgs/oriNabijiImg.png"
+    "marketImage": "/marketImgs/oriNabijiImg.png",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "ori-nabiji-bageti",
@@ -34,7 +36,8 @@ const ProductsData = [
     "description": "ფრანგული ბაგეტი",
     "market": "ორი ნაბიჯი",
     "category": "ცომეული",
-    "marketImage": "/marketImgs/oriNabijiImg.png"
+    "marketImage": "/marketImgs/oriNabijiImg.png",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "ori-nabiji-kruasani",
@@ -46,6 +49,7 @@ const ProductsData = [
     "market": "ორი ნაბიჯი",
     "category": "ცომეული",
     "marketImage": "/marketImgs/oriNabijiImg.png",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "ori-nabiji-biskviti",
@@ -57,6 +61,7 @@ const ProductsData = [
     "market": "ორი ნაბიჯი",
     "category": "ტკბილეული",
     "marketImage": "/marketImgs/oriNabijiImg.png",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "ori-nabiji-shokoladis-fila",
@@ -68,6 +73,7 @@ const ProductsData = [
     "market": "ორი ნაბიჯი",
     "category": "ტკბილეული",
     "marketImage": "/marketImgs/oriNabijiImg.png",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "ori-nabiji-namcxvari",
@@ -79,6 +85,7 @@ const ProductsData = [
     "market": "ორი ნაბიჯი",
     "category": "ტკბილეული",
     "marketImage": "/marketImgs/oriNabijiImg.png",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "ori-nabiji-rdze",
@@ -90,6 +97,7 @@ const ProductsData = [
     "market": "ორი ნაბიჯი",
     "category": "რძის ნაწარმი",
     "marketImage": "/marketImgs/oriNabijiImg.png",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "ori-nabiji-karaki",
@@ -101,6 +109,7 @@ const ProductsData = [
     "market": "ორი ნაბიჯი",
     "category": "რძის ნაწარმი",
     "marketImage": "/marketImgs/oriNabijiImg.png",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "ori-nabiji-yveli",
@@ -111,7 +120,8 @@ const ProductsData = [
     "description": "ქართული ყველი",
     "market": "ორი ნაბიჯი",
     "category": "რძის ნაწარმი",
-    "marketImage": "/marketImgs/oriNabijiImg.png"
+    "marketImage": "/marketImgs/oriNabijiImg.png",
+    "expireDate": "12 დეკემბერი"
   },
 
   //ლიბრე
@@ -125,8 +135,10 @@ const ProductsData = [
     "description": "ნატურალური რძე",
     "market": "ლიბრე",
     "category": "რძის ნაწარმი",
-    "marketImage": "/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg",
+    "expireDate": "12 დეკემბერი"
   },
+  
   {
     "id": "libre-karaqi",
     "name": "კარაქი",
@@ -136,7 +148,8 @@ const ProductsData = [
     "description": "ბუნებრივი იოგურტი",
     "market": "ლიბრე",
     "category": "რძის ნაწარმი",
-    "marketImage": "/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg",
+    "expireDate": "12 დეკემბერი"
   }, 
   {
     "id": "libre-yveli",
@@ -147,7 +160,8 @@ const ProductsData = [
     "description": "ქართული ყველი",
     "market": "ლიბრე",
     "category": "რძის ნაწარმი",
-    "marketImage": "/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "libre-biskviti",
@@ -158,7 +172,8 @@ const ProductsData = [
     "description": "ბისკვიტი",
     "market": "ლიბრე",
     "category": "ტკბილეული",
-    "marketImage": "/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "libre-shokoladis-fila",
@@ -169,7 +184,8 @@ const ProductsData = [
     "description": "შოკოლადის ფილა",
     "market": "ლიბრე",
     "category": "ტკბილეული",
-    "marketImage": "/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "libre-namcxvari",
@@ -180,7 +196,8 @@ const ProductsData = [
     "description": "გემრიელი ნამცხვარი",
     "market": "ლიბრე",
     "category": "ტკბილეული",
-    "marketImage": "/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "libre-tsomeuli-puri",
@@ -191,7 +208,8 @@ const ProductsData = [
     "description": "ცხელი თონის პური",
     "market": "ლიბრე",
     "category": "ცომეული",
-    "marketImage": "/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "libre-bageti",
@@ -202,7 +220,8 @@ const ProductsData = [
     "description": "ფრანგული ბაგეტი",
     "market": "ლიბრე",
     "category": "ცომეული",
-    "marketImage": "/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg",
+    "expireDate": "12 დეკემბერი"
   },
   {
     "id": "libre-kruasani",
@@ -213,7 +232,8 @@ const ProductsData = [
     "description": "კარაქის კრუასანი",
     "market": "ლიბრე",
     "category": "ცომეული",
-    "marketImage": "/marketImgs/libreImg.jpg"
+    "marketImage": "/marketImgs/libreImg.jpg",
+    "expireDate": "12 დეკემბერი"
   },
 
 ]

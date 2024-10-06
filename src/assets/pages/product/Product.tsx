@@ -25,8 +25,10 @@ export default function Product() {
             )}
           </div>
         <div className="product-page-info">
-          <h1 className="product-page-info-title">{product.name}</h1>
-          <h3 className="product-page-info-description">{product.price}₾</h3>
+          <h1 className="product-page-info-title">დასახელება: {product.name}</h1>
+          <h3 className="product-page-info-price">ფასი: {product.price}₾</h3>
+          <h3 className="product-page-info-market">მარკეტი: {product.market}</h3>
+          <h3 className="product-page-info-expiredate">ბოლო ვადა: {product.expireDate}</h3>
         </div>
       </div>
     </div>

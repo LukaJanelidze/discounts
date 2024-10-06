@@ -75,6 +75,7 @@ const Search: React.FC<CloseProps> = ({setIsOpen}) => {
                     <div className='search-product-name'>დასახელება: {product.name}</div>
                     <div className='search-product-market'>მარკეტი: {product.market}</div>
                     <div className='search-product-price'>ფასი: {product.price} ლ</div>
+                    <div className='search-product-expiredate'>ბოლო ვადა: {product.expireDate}</div>
                     </div>
 
                     <hr />

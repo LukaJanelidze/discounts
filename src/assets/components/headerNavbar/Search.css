@@ -157,6 +157,13 @@
     color: #E2E9FF;
 }
 
+.search-product-expiredate {
+    width: 100%;
+    text-align: start;
+    color: red;
+    font-weight: 700;
+}
+
 .no-results {
     margin-top: 10px;
     text-align: center;

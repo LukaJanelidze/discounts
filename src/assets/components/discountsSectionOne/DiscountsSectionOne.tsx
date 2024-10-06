@@ -23,6 +23,7 @@ export default function DiscountsSectionOne({ product }: DiscountsSectionOneProp
             )}
           <h1 className="product-name">{product.name}</h1>
           <h3 className="product-discount">{product.price}₾</h3>
+          <h3 className="product-expiredate">ბოლო ვადა: {product.expireDate}</h3>
         </div>
       </div>
     </Link>
