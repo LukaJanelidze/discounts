@@ -38,6 +38,7 @@
     background-color: #402158;
     border-radius: 5px;
     padding: 10px;
+    white-space: pre-line;
 }
 
 .arrow {

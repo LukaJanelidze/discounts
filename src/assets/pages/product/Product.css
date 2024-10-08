@@ -4,7 +4,12 @@
     position: relative;
     align-items: center;
     margin: 10px;
-    background-color: #9000ff44;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 0.1) 25%,
+        rgba(221, 76, 10, 0.3) 50%,
+        rgba(221, 76, 76, 0.6) 75%
+      );
     overflow: hidden;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -22,7 +27,7 @@
     overflow: hidden;
     position: relative;
     border-bottom-left-radius: 50px;
-    box-shadow: 0px 0px 30px #140E36;
+
 }
 
 .pb-image-box .pb-image {
@@ -42,33 +47,33 @@
 }
 
 .product-page-info {
-    background: hsla(274, 45%, 24%, 0.7);
+    background: #402158;
     margin-top: 20px;
     padding: 10px;
     color: #E2E9FF;
     border-top-right-radius: 50px;
     border-top: 2px solid #140E36;
-    box-shadow: 0px 0px 30px #140E36;
+
 }
 
 .product-page-info-title {
-    font-size: 22px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .product-page-info-price {
-    font-size: 22px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .product-page-info-market {
-    font-size: 22px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .product-page-info-expiredate {
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     color: red;
 }
 
@@ -77,6 +82,12 @@
         border-radius: 0px;
         border-top-left-radius: 20px;
         border-bottom-right-radius: 20px;
+        background: linear-gradient(
+            180deg,
+            rgba(255, 0, 0, 0.1) 25%,
+            rgba(221, 76, 10, 0.3) 50%,
+            rgba(221, 76, 76, 0.6) 75%
+          );
     }
     
     .pb-container {
@@ -89,7 +100,6 @@
         width: 48%;
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 50px;
-        box-shadow: 0px 0px 30px #140E36;
     }
     
     .pb-image-box .pb-image {
@@ -111,7 +121,6 @@
         margin-top: 0;
         border-top-left-radius: 50px;
         border-left: 2px solid #140E36;
-        box-shadow: 0px 0px 30px #140E36;
     }
     
     .product-page-info-title {
@@ -128,6 +137,6 @@
 
     .product-page-info-expiredate {
         text-align: end;
-        font-size: 22px;
+
     }
 }

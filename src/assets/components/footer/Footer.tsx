@@ -9,7 +9,7 @@ export default function Footer() {
   const footerArr = [
     {
       title: "დაგვიკავშირდით",
-      subText: "example@gmail.com",
+      subText: "თუ დაინტერესებული ბრძანდებით რეკლამით დაგვიკავშირდით:\n \nemail: example@gmail.com\nტელ: 555 55 55 55",
       id: 1,
     },
     {
